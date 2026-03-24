@@ -1,6 +1,8 @@
 .títuloPrincipal {
     text-align: center;
     margin-bottom: 40px;
+    width: 100%;
+    display: block;
 }
 .sub1_espaçamento_baixo {
     margin-bottom: 30px;
