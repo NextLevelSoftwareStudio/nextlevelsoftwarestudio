@@ -1,26 +1,14 @@
-body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
-}
-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-th, td {
-    border: 1px solid #000;
-    padding: 10px;
-    text-align: left;
-}
-th {
-    background-color: #f2f2f2;
-}
 .títuloPrincipal {
     text-align: center;
+    margin-bottom: 40px;
 }
-.espaçamentoBaixo {
+.sub1_espaçamento_baixo {
     margin-bottom: 30px;
 }
-.espaçamentoTopo {
+.sub1_espaçamento_topo {
+    margin-top: 30px;
+}
+.sub1_espaçamento_duplo {
+    margin-bottom: 30px;
     margin-top: 30px;
 }
