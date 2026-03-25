@@ -1,7 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+
+    {% if page.importStyles %}
+      {% for css_path in page.importStyles %}
+        <link rel="stylesheet" href="{{ site.baseurl }}{{ css_path }}">
+      {% endfor %}
+    {% endif %}
+</head>
 <body style="position: relative;">
   <img src="{{ site.baseurl }}/assets/images/logo.png" class="main_logo_style" alt="Logo">
   
-  <div class="conteudo-do-site">
+  <div class="siteContent">
     {{ content }}
   </div>
+
+  <br>
+
+  {% if page.includeFooter == true %}
+    {% include footer.html %}
+  {% endif %}
 </body>
+</html>
