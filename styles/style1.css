@@ -1,18 +1,18 @@
 .tituloPrincipal {
-    text-align: center;
-    margin-bottom: 40px;
-    width: 100%;
-    display: block;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100%;
+  display: block;
 }
 .sub1_espaçamento_baixo {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .sub1_espaçamento_topo {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .sub1_espaçamento_duplo {
-    margin-bottom: 30px;
-    margin-top: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 table {
   width: 100%;
@@ -25,7 +25,7 @@ th, td {
   text-align: center;
   vertical-align: middle;
 }
-.imagem-da-pagina {
+.main_logo_style {
   position: absolute;
   top: 10px;
   left: 10px;
