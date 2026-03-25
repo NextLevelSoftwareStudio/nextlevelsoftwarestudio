@@ -26,9 +26,9 @@ th, td {
   vertical-align: middle;
 }
 .main_logo_style {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  display: block;
   width: 80px;
-  z-index: 10;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
