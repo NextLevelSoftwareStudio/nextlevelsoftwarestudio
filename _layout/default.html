@@ -16,12 +16,11 @@
   
   <div class="siteContent">
     {{ content }}
+    <br>
+    {% if page.includeFooter == true %}
+      {% include footer.html %}
+    {% endif %}
   </div>
 
-  <br>
-
-  {% if page.includeFooter == true %}
-    {% include footer.html %}
-  {% endif %}
 </body>
 </html>
