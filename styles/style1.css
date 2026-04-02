@@ -18,13 +18,6 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
-table, th, td {
-  border: 4px solid black;
-}
-th, td {
-  text-align: center;
-  vertical-align: middle;
-}
 .main_logo_style {
   display: block;
   width: 80px;
